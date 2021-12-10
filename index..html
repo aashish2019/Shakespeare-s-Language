@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakespeare application</title>
+    <link href="style.css" rel="stylesheet"/>
+    <style>
+        textarea{
+            width:50%;
+            height:20vh;
+            display:block;
+            margin:1rem;
+            padding:2rem;
+            margin:auto;
+            padding-bottom: 2rem;
+            margin-top: 1rem;
+        }
+
+        #output{
+            border:1px solid black;
+            height:20vh;
+            width:50%;
+            margin:1rem;
+            padding:2rem;
+            display:block;
+            margin:auto;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+    <h1 class="header">talking shakespeare</h1>
+    </div>
+    <textarea 
+    id="txt-input"
+    placeholder="Talk like shakespeare.."></textarea>
+    <button class="button" id="btn-translate">Translate to Shakespeare</button>
+    <div class="div" style="font-size: larger;">See Translation </div>
+    <div id="output"></div>
+	<div class="ft">
+    <h2>About</h2>
+    <div>Are you a fan of shakespeare? Use the translator to convert your text from English to shakespeare english.</div>
+</div>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>
